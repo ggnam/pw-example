@@ -25,6 +25,7 @@ const config: PlaywrightTestConfig = {
       use: { browserName: 'webkit' },
     },
   ],
+  testDir: "./tests/e2e-empty"
 }
 
 export default config
